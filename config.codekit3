@@ -19,6 +19,94 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/footer/logo.jpg": {
+		"ft": 16384,
+		"iS": 54490,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/footer/logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-1/mountains1.jpg": {
+		"ft": 16384,
+		"iS": 4622392,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-1/mountains1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-2/dock.jpg": {
+		"ft": 16384,
+		"iS": 2571953,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-2/dock.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-3/table.jpg": {
+		"ft": 16384,
+		"iS": 3905852,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/table.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/bike.jpg": {
+		"ft": 16384,
+		"iS": 2082939,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/bike.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/leaves.jpg": {
+		"ft": 16384,
+		"iS": 2549174,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/leaves.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-4/trees.jpg": {
+		"ft": 16384,
+		"iS": 6461267,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-4/trees.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/section-5/mountains.jpg": {
+		"ft": 16384,
+		"iS": 4622392,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/section-5/mountains.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -38,12 +126,12 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/footer": {
+	"/dev/footer.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/footer",
+		"oA": 1,
+		"oAP": "/dev/footer.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -208,44 +296,44 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/dev/section-1": {
+	"/dev/section-1.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/section-1",
+		"oA": 1,
+		"oAP": "/dev/section-1.html",
 		"oF": 0
 		},
-	"/dev/section-2": {
+	"/dev/section-2.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/section-2",
+		"oA": 1,
+		"oAP": "/dev/section-2.html",
 		"oF": 0
 		},
-	"/dev/section-3": {
+	"/dev/section-3.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/section-3",
+		"oA": 1,
+		"oAP": "/dev/section-3.html",
 		"oF": 0
 		},
-	"/dev/section-4": {
+	"/dev/section-4.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/section-4",
+		"oA": 1,
+		"oAP": "/dev/section-4.html",
 		"oF": 0
 		},
-	"/dev/section-5": {
+	"/dev/section-5.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/section-5",
+		"oA": 1,
+		"oAP": "/dev/section-5.html",
 		"oF": 0
 		},
 	"/README.md": {
@@ -2367,7 +2455,7 @@
 	"npmSaveExactVersion": 0,
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
-	"previewPathAddition": "",
+	"previewPathAddition": "/deploy/",
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
 	"rollupTreeshakingEnabled": 1,
