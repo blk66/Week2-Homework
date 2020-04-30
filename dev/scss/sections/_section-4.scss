@@ -2,25 +2,36 @@
     Section 4
 ============= */
 #section-4{
-   
-    >div{
-        aside {
-            grid-area: section-4;
-            display: grid;
-            grid-template-columns: 10px auto 10px;
-            grid-template-areas: ". section-4 .";
-        }
-    }
-           
+
+    aside{
+        
+        display: grid;
+        grid-template-columns: 10px auto 10px;
+        grid-template-areas: ". section-4 .";
+        text-align: center;
+        color: maroon;
+        
+       >div{
+            grid-area:section-4;
+
+            @include md{
+                display: grid;
+                grid-template-columns: 20% auto 20%;
+                grid-area:section-4;   
+        
+            }
+       }  
+    } 
+       
     ul{
         grid-area: section-4;
         display: grid;
         grid-gap: 20px;
+        
         img{
-           width:100%
+           width:100%;
+           
         }
     }
-    
+
 }
-      
-    

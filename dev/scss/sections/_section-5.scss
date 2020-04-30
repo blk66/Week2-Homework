@@ -2,19 +2,31 @@
     Section 5
 ============= */
 #section-5{
-    
-    section{
+
+     aside{
         display: grid;
         grid-template-columns: 10px auto 10px;
         grid-template-areas: ". section-5 .";
-       
-        >div {
-            grid-area: section-5;
-            }
-        
-        }
-        
-        
-    
-} 
 
+        @include md{
+            grid-template-columns: auto 318px auto; 
+        }
+
+        img{
+            width: 100%;
+            grid-area: section-5;
+        }
+    }
+
+     #section-5-container {
+        display: grid;
+        grid-template-columns: 10px auto 10px;
+        grid-template-areas: ". section-5 .";
+
+        #div-2{
+            grid-area: section-5;
+        }
+            
+     }
+     
+}

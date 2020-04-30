@@ -360,39 +360,68 @@ textarea {
 footer {
   background-color: #060C35;
   color: white;
-  padding: 0px 0;
-  text-align: center; }
+  padding: 0px 0; }
 
 /* =============
     Section 1
 ============= */
+#section-1 {
+  display: grid;
+  grid-template-columns: 0px auto 0px;
+  grid-template-areas: ". section-1 ."; }
+  #section-1 img {
+    width: 100%;
+    grid-area: section-1; }
+
 /* =============
     Section 2
 ============= */
-#section-2 section {
+#section-2 #section-2-first {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-2 ."; }
-  #section-2 section > div {
-    grid-area: section-2; }
+  grid-template-areas: ". section-2-first .";
+  color: maroon; }
+  @media (min-width: 768px) {
+    #section-2 #section-2-first {
+      grid-template-columns: 20% auto 20%; } }
+  @media (min-width: 992px) {
+    #section-2 #section-2-first {
+      grid-template-columns: 30% auto 30%; } }
+  #section-2 #section-2-first > div {
+    grid-area: section-2-first; }
+
+#section-2 #section-2-second {
+  display: grid; }
+  @media (min-width: 768px) {
+    #section-2 #section-2-second {
+      display: grid;
+      grid-template-columns: 40% auto;
+      grid-template-areas: ". section-2-second ."; } }
+  #section-2 #section-2-second img {
+    width: 100%; }
 
 /* =============
     Section 3
 ============= */
-#section-3 section {
-  display: grid;
-  grid-template-columns: 0px auto 0px;
-  grid-template-areas: ". section-3 ."; }
+#section-3 img {
+  width: 100%; }
 
 /* =============
     Section 4
 ============= */
-#section-4 > div aside {
-  grid-area: section-4;
+#section-4 aside {
   display: grid;
   grid-template-columns: 10px auto 10px;
-  grid-template-areas: ". section-4 ."; }
-
+  grid-template-areas: ". section-4 .";
+  text-align: center;
+  color: maroon; }
+  #section-4 aside > div {
+    grid-area: section-4; }
+    @media (min-width: 768px) {
+      #section-4 aside > div {
+        display: grid;
+        grid-template-columns: 20% auto 20%;
+        grid-area: section-4; } }
 #section-4 ul {
   grid-area: section-4;
   display: grid;
@@ -403,9 +432,20 @@ footer {
 /* =============
     Section 5
 ============= */
-#section-5 section {
+#section-5 aside {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". section-5 ."; }
-  #section-5 section > div {
+  @media (min-width: 768px) {
+    #section-5 aside {
+      grid-template-columns: auto 318px auto; } }
+  #section-5 aside img {
+    width: 100%;
+    grid-area: section-5; }
+
+#section-5 #section-5-container {
+  display: grid;
+  grid-template-columns: 10px auto 10px;
+  grid-template-areas: ". section-5 ."; }
+  #section-5 #section-5-container #div-2 {
     grid-area: section-5; }

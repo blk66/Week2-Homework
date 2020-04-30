@@ -71,6 +71,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/img/section-3/table.png": {
+		"ft": 32768,
+		"iS": 2060015,
+		"oA": 0,
+		"oAP": "/deploy/img/section-3/table.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/section-4/bike.jpg": {
 		"ft": 16384,
 		"iS": 1565841,
