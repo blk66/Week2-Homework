@@ -1,6 +1,7 @@
 /* =============
     Section 4
 ============= */
+
 #section-4{
 
     aside{
@@ -12,7 +13,7 @@
         color: maroon;
         
        >div{
-            grid-area:section-4;
+           grid-area:section-4;
 
             @include md{
                 display: grid;
@@ -20,7 +21,7 @@
                 grid-area:section-4;   
         
             }
-       }  
+        }  
     } 
        
     ul{

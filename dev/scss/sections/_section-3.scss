@@ -6,4 +6,8 @@
     img{
         width:100%
     }
+
+    @include lg{
+        height: 683px ;
+    }
 }

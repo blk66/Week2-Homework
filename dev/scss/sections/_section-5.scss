@@ -8,12 +8,12 @@
         grid-template-columns: 10px auto 10px;
         grid-template-areas: ". section-5 .";
 
-        @include md{
-            grid-template-columns: auto 318px auto; 
-        }
+        // @include md{
+        //     grid-template-columns: auto 318px auto; 
+        // }
 
         img{
-            width: 100%;
+            // width: 100%;
             grid-area: section-5;
         }
     }

@@ -3,12 +3,30 @@
 ============= */
 
 #section-1{
-    display: grid;
-    grid-template-columns: 0px auto 0px;
-    grid-template-areas: ". section-1 .";
+
+        background-image: url('../img/section-1/mountains1.jpg'); 
+        background-size: cover;
+        background-position: center;
+        height: 371px;
+
+            @include md{
+                height: 512px ;
+            }
+
+            @include lg{
+                height: 683px ;
+            }
     
-    img {
-        width: 100%;
-        grid-area: section-1;
+    #test{
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: 1fr auto 1fr;
+        grid-template-areas: ". section-1 .";
+
     }
+   
+    #test-2{
+
+    }
+
 }

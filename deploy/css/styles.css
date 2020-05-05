@@ -366,12 +366,21 @@ footer {
     Section 1
 ============= */
 #section-1 {
-  display: grid;
-  grid-template-columns: 0px auto 0px;
-  grid-template-areas: ". section-1 ."; }
-  #section-1 img {
-    width: 100%;
-    grid-area: section-1; }
+  background-image: url("../img/section-1/mountains1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 371px; }
+  @media (min-width: 768px) {
+    #section-1 {
+      height: 512px; } }
+  @media (min-width: 992px) {
+    #section-1 {
+      height: 683px; } }
+  #section-1 #test {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-areas: ". section-1 ."; }
 
 /* =============
     Section 2
@@ -380,7 +389,8 @@ footer {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". section-2-first .";
-  color: maroon; }
+  color: maroon;
+  padding: 62px; }
   @media (min-width: 768px) {
     #section-2 #section-2-first {
       grid-template-columns: 20% auto 20%; } }
@@ -391,20 +401,23 @@ footer {
     grid-area: section-2-first; }
 
 #section-2 #section-2-second {
-  display: grid; }
-  @media (min-width: 768px) {
-    #section-2 #section-2-second {
-      display: grid;
-      grid-template-columns: 40% auto;
-      grid-template-areas: ". section-2-second ."; } }
+  display: grid;
+  grid-template-columns: auto section-2-second auto;
+  grid-template-areas: ". section-2-second .";
+  padding: 57px 0; }
   #section-2 #section-2-second img {
-    width: 100%; }
+    width: 100%;
+    grid-area: section-2-second; }
 
 /* =============
     Section 3
 ============= */
 #section-3 img {
   width: 100%; }
+
+@media (min-width: 992px) {
+  #section-3 {
+    height: 683px; } }
 
 /* =============
     Section 4
@@ -436,11 +449,7 @@ footer {
   display: grid;
   grid-template-columns: 10px auto 10px;
   grid-template-areas: ". section-5 ."; }
-  @media (min-width: 768px) {
-    #section-5 aside {
-      grid-template-columns: auto 318px auto; } }
   #section-5 aside img {
-    width: 100%;
     grid-area: section-5; }
 
 #section-5 #section-5-container {
